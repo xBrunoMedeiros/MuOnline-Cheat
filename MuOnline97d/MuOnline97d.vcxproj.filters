@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{bb6334ad-a44b-4ad7-b774-f275dddea969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Memory">
+      <UniqueIdentifier>{28a885cd-0ede-45fa-8843-4c429a7a1ac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEngine">
+      <UniqueIdentifier>{f5c3d321-e198-4745-90f9-c112fc36f316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ModEngine">
+      <UniqueIdentifier>{2f4253b0-7919-4cfa-b5f9-65126bc06511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEngine\Cryptographer">
+      <UniqueIdentifier>{f2e17d4d-6a3b-4c83-a1ab-c6a228db6c2c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\SimpleMemory.h">
+      <Filter>Header Files\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Memory\Detours.h">
+      <Filter>Header Files\Utilities\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameAddress.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameFunctions.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameVariables.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameStructures.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Cryptographer\Cryptographer.h">
+      <Filter>Header Files\GameEngine\Cryptographer</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Debug.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameDefines.h">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModFunctions.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModIntegrator.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModController.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModAutoKill.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Thread.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModBattle.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="ModEngine\ModRuntime.h">
+      <Filter>Header Files\ModEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine\Cryptographer\Cryptographer.cpp">
+      <Filter>Header Files\GameEngine\Cryptographer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
